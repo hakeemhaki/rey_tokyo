@@ -1,0 +1,1 @@
+!function(n){"use strict";n(document).one("reycore/init",(function(n,e){}))}(jQuery);

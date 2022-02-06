@@ -1,0 +1,1 @@
+!function(i){"use strict";var t=function(t){this.init=function(){this.$pContainer=t,this.$variationForm=i("form.variations_form",this.$pContainer),this.$mainPrice=i("p.price",this.$pContainer),this.mainPriceHtml=this.$mainPrice.html(),this.$mainPrice.length},this.init()};i(document).one("reycore/init",(function(){new t}))}(jQuery);

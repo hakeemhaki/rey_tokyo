@@ -1,0 +1,1 @@
+!function(t){"use strict";var n=function(n){var e=0,o=(n=n||t(document),t(n).find(".rey-filterBtn__count"));o.length&&(e=o.attr("data-count")),t("body").attr("data-active-filters",e)};t(document).on("reycore/woocommerce/init",(function(t,e){n()})),t(document).on("wcapf_finished reycore/ajaxfilters/finished",(function(t,e,o){n(e)}))}(jQuery);

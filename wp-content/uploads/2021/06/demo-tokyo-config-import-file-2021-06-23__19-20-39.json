@@ -1,0 +1,79 @@
+{
+    "rey-theme": {
+        "acf_fields_panel": true,
+        "adobe_fonts_project_id": "abs2atv",
+        "kirki_font_variants": false,
+        "preload_google_fonts": false
+    },
+    "options": {
+        "elementor_disable_color_schemes": "yes",
+        "elementor_disable_typography_schemes": "yes",
+        "elementor_container_width": "",
+        "elementor_space_between_widgets": "",
+        "elementor_stretched_section_container": "",
+        "elementor_page_title_selector": "",
+        "elementor_viewport_lg": "",
+        "elementor_viewport_md": "",
+        "woocommerce_enable_myaccount_registration": "yes",
+        "woocommerce_enable_signup_and_login_from_checkout": "yes",
+        "woocommerce_enable_checkout_login_reminder": "yes",
+        "show_on_front": "page",
+        "woo_variation_swatches": {
+            "tooltip": "1",
+            "style": "squared",
+            "threshold": "30",
+            "attribute-behavior": "blur",
+            "attribute_image_size": "thumbnail",
+            "width": "30",
+            "height": "30",
+            "single-font-size": "16",
+            "_last_active_tab": "simple",
+            "stylesheet": 0,
+            "clear_on_reselect": 0
+        },
+        "activate-woo-variation-swatches": "no"
+    },
+    "rey_mega_menus": [],
+    "wc_attribute_types": [
+        {
+            "attribute_id": "2",
+            "attribute_name": "color",
+            "attribute_label": "Color",
+            "attribute_type": "color",
+            "attribute_orderby": "menu_order",
+            "attribute_public": 1
+        },
+        {
+            "attribute_id": "4",
+            "attribute_name": "size",
+            "attribute_label": "Size",
+            "attribute_type": "button",
+            "attribute_orderby": "menu_order",
+            "attribute_public": 1
+        }
+    ],
+    "pages": {
+        "woocommerce_shop_page_id": "Store",
+        "woocommerce_cart_page_id": "Cart",
+        "woocommerce_checkout_page_id": "Checkout",
+        "woocommerce_myaccount_page_id": "My account",
+        "woocommerce_terms_page_id": "",
+        "page_on_front": "Homepage",
+        "page_for_posts": "Journal"
+    },
+    "remove_pages": {
+        "sample_page": "Sample page",
+        "hello_world": "Hello world!"
+    },
+    "gs_header": "header-site",
+    "gs_footer": "footer-tokyo",
+    "elements_manager": [
+        "reycore-cover-distortion",
+        "reycore-hoverbox-distortion"
+    ],
+    "nav": {
+        "main-menu": "Main Menu"
+    },
+    "source-path": "https:\/\/demos.reytheme.com\/tokyo",
+    "upload-path": "https:\/\/demos.reytheme.com\/tokyo\/wp-content\/uploads\/sites\/6"
+}

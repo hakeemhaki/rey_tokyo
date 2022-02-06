@@ -1,0 +1,110 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">rey-global-sections</custom-type>
+    </custom-types>
+    <admin-texts>
+        <key name="footer_copyright"/>
+        <key name="search_suggestions"/>
+        <key name="product_info_content"/>
+        <key name="header_account_text"/>
+        <key name="header_account_text_logged_in"/>
+        <key name="header_cart_text"/>
+        <key name="single_product_page_related_title"/>
+        <key name="single_product_price_text_custom"/>
+        <key name="estimated_delivery__prefix"/>
+        <key name="custom_price_range"/>
+        <key name="loop_featured_badge__text"/>
+        <key name="scroll_to_top__text"/>
+        <key name="header_cart__title"/>
+        <key name="header_search__input_placeholder"/>
+        <key name="product_page_gallery__btn__text"/>
+        <key name="cart_checkout_bar_text1_t"/>
+        <key name="cart_checkout_bar_text1_s"/>
+        <key name="cart_checkout_bar_text2_t"/>
+        <key name="cart_checkout_bar_text2_s"/>
+        <key name="cart_checkout_bar_text3_t"/>
+        <key name="cart_checkout_bar_text3_s"/>
+        <key name="wishlist__text"/>
+        <key name="wishlist__texts_add"/>
+        <key name="wishlist__texts_rm"/>
+        <key name="wishlist__texts_added"/>
+        <key name="wishlist__texts_btn"/>
+        <key name="cookie_notice__text"/>
+        <key name="cookie_notice__btn_text"/>
+        <key name="refunds__menu_text"/>
+        <key name="refunds__page_title"/>
+        <key name="refunds__content"/>
+        <key name="product_content_blocks_title"/>
+        <key name="single__product_info_title"/>
+        <key name="single_specifications_title"/>
+        <key name="header_cart__close_text"/>
+        <key name="single_atc__text"/>
+        <key name="single_atc__text_backorders"/>
+        <key name="loop_atc__text"/>
+        <key name="header_cart__cross_sells_btn_text"/>
+        <key name="social__text"/>
+        <key name="text_before_add_to_cart"/>
+        <key name="text_after_add_to_cart"/>
+        <key name="request_quote__cf7"/>
+        <key name="request_quote__wpforms"/>
+    </admin-texts>
+    <custom-fields>
+		<custom-field action="copy">title_display</custom-field>
+		<custom-field action="copy">page_cover</custom-field>
+		<custom-field action="copy">rey_body_class</custom-field>
+		<custom-field action="copy">header_layout_type</custom-field>
+		<custom-field action="copy">header_text_color</custom-field>
+		<custom-field action="copy">header_position</custom-field>
+		<custom-field action="copy">header_fixed_overlap</custom-field>
+		<custom-field action="copy">header_fixed_overlap_tablet</custom-field>
+		<custom-field action="copy">header_fixed_overlap_mobile</custom-field>
+        <custom-field action="copy">custom_logo</custom-field>
+        <custom-field action="copy">logo_mobile</custom-field>
+        <custom-field action="copy">footer_layout_type</custom-field>
+        <custom-field action="copy">custom_container_width</custom-field>
+        <custom-field action="copy">container_width_px</custom-field>
+        <custom-field action="copy">container_width_vw</custom-field>
+        <custom-field action="copy">apply_only_to_main_content</custom-field>
+        <custom-field action="copy">content_padding</custom-field>
+        <custom-field action="copy">global_sections</custom-field>
+        <custom-field action="copy">remove_global_sections</custom-field>
+        <custom-field action="copy">general_redirect</custom-field>
+        <custom-field action="copy">redirect_url</custom-field>
+        <custom-field action="copy">top_sticky_gs</custom-field>
+        <custom-field action="copy">bottom_sticky_gs</custom-field>
+	</custom-fields>
+    <elementor-widgets>
+        <widget name="reycore-wc-checkout">
+            <fields-in-item items_of="custom_shipping_fields">
+                <field type="Shipping field: Label" editor_type="LINE">label</field>
+                <field type="Shipping field: Description" editor_type="LINE">description</field>
+            </fields-in-item>
+            <fields-in-item items_of="custom_billing_fields">
+                <field type="Billing field: Label" editor_type="LINE">label</field>
+                <field type="Billing field: Tooltip" editor_type="LINE">description</field>
+            </fields-in-item>
+        </widget>
+        <widget name="reycore-text-scroller">
+            <fields-in-item items_of="items">
+                <field type="Content" editor_type="VISUAL">content</field>
+            </fields-in-item>
+        </widget>
+        <widget name="reycore-toggle-boxes">
+            <fields-in-item items_of="items">
+                <field type="Text" editor_type="LINE">text</field>
+                <field type="Link" editor_type="LINK">link</field>
+            </fields-in-item>
+            <fields-in-item items_of="stacks_items">
+                <field type="Main Text" editor_type="LINE">main_text</field>
+                <field type="Secondary Text" editor_type="LINE">sec_text</field>
+                <field type="Active Text" editor_type="LINE">active_text</field>
+                <field type="Link" editor_type="LINK">active_url</field>
+            </fields-in-item>
+        </widget>
+        <widget name="column">
+            <fields>
+                <field type="Column Link" editor_type="LINK">rey_link</field>
+            </fields>
+        </widget>
+    </elementor-widgets>
+</wpml-config>

@@ -1,0 +1,82 @@
+
+---Downloaded files---
+The import files for: Tokyo were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/rey_tokyo
+Data file = C:\xampp\htdocs\rey_tokyo/wp-content/uploads/2021/06/demo-content-import-file_2021-06-23__19-13-49.xml
+Widget file = C:\xampp\htdocs\rey_tokyo/wp-content/uploads/2021/06/demo-widgets-import-file_2021-06-23__19-13-49.json
+Customizer file = C:\xampp\htdocs\rey_tokyo/wp-content/uploads/2021/06/demo-customizer-import-file_2021-06-23__19-13-49.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Filter Panel : 
+
+Rey Filter - by Category - CATEGORIES - Imported
+Rey Filter - by Attribute - COLOR - Imported
+Rey Filter - by Attribute - SIZES - Imported
+Rey Filter - by Attribute - BRAND - Imported
+Rey Filter - by Price - PRICE - Imported
+Rey - Active Filters - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---Importing Theme Config---
+The config file was successfully parsed!
+
+---Importing Theme Config---
+The processes: rey-theme, options, pages, remove_pages, nav, upload-path, source-path, woocommerce-attributes, elements_manager, gs_header, gs_footer were added.
+
+---End---
+Time elapsed to import - 451243:20:46 .
+
+---ocdi/after_import---
+
